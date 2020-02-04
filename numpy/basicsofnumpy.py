@@ -19,12 +19,10 @@ print(matrix1)
 
 matrix2 = np.arange(6).reshape(2,3)
 print(matrix2)
-
 total = matrix1 + matrix2
 print(total)
 difference = matrix1 - matrix2
 print(difference)
-
 A = np.array([[2,3],[4,5]])
 B = np.array([[1,2],[3,4]])
 print(A)
@@ -33,6 +31,6 @@ print('The product is:',product)
 product = A * B
 print('The product is:',product)
 #determinant
-print('Determinant of B is',np.linalg.det(B))
+print('Determinant of B is\n',np.linalg.det(B))
 #transpose
-print('Transpose of B is',np.matrix.transpose(B))
+print('Transpose of B is\n',np.matrix.transpose(B))

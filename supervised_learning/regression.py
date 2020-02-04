@@ -1,8 +1,8 @@
 # Example of regression
 # Author: Prastab Dhakal
-# Chapter: Classes and objects
-import numpy as np
+# Chapter: 
 import matplotlib.pyplot as plt
+import numpy as np
 
 x = np.array(range(1, 19))
 y = np.array([147026,144272,140020,143801,146233,144539,141273,135389,142500,139452,139722,135300,137289,136511,132884,125683,127255,124275])
